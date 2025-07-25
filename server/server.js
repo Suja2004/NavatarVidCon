@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
 const { body, validationResult } = require("express-validator");
-const { generateToken04 } = require("./ZegoServerAssistant");
+const { generateToken04 } = require("./ZegoServerAssistant.js");
 
 dotenv.config();
 
