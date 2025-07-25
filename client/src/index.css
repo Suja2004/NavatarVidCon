@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  background: #02001e;
+  place-items: center;
+}
+
+form {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: #090632;
+  box-shadow: 0 0 2px #3c3c3c;
+}
+
+input,
+button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+}
+
+button {
+  background: rgb(85, 119, 255);
+  color: #fff;
+}
+
+.myCallContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
