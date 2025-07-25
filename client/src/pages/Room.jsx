@@ -22,7 +22,13 @@ function Room() {
                 console.log('Initializing meeting with:', { roomID, userID, userName });
 
                 // Call your backend to get the token
-                const response = await axios.post('http://localhost:5000/api/get-token', {
+                // const response = await axios.post('http://localhost:5000/api/get-token', {
+                //     roomID,
+                //     userID,
+                //     userName,
+                // });
+
+                const response = await axios.post('https://navatar-vid-con.vercel.app/api/get-token', {
                     roomID,
                     userID,
                     userName,
