@@ -30,7 +30,7 @@ const corsOptions = {
     const allowedOrigins = [
       'http://localhost:3000', // Development
       'http://localhost:5173', // Vite dev server
-      'https://navatar-vid-con-hary.vercel.app/', // Production domain
+      'https://navatar-vid-con-hary.vercel.app', // Production domain
     ];
     
     // Allow requests with no origin (mobile apps, etc.)
